@@ -1,6 +1,8 @@
 {
   "version": 2,
   "routes": [
+    { "src": "/download", "dest": "/api/download.js" },
     { "src": "/(.*)", "dest": "/api/ip.js" }
   ]
 }
+
